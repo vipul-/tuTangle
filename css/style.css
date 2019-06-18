@@ -183,7 +183,7 @@ main h2 {
 
 .feed-item {
     float: left;
-    padding: 20px 0;
+    padding: 20.5px 0;
     border-bottom: 1px solid #dcdcdc;
     width: 100%;
 }
@@ -196,10 +196,62 @@ main h2 {
     margin-left: 10px;
     float: left;
     max-width: 598px;
-    line-height: 24px;
-    font-size: 15.76px;
+    line-height: 23px;
+    font-size: 14px;
 }
     h4 {
         margin: 0;
         font-size: 17px;
     }
+
+    h5 {
+        margin: 0;
+        font-size: 13px;
+        color: #8bb9c3;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+
+    .topicBoxInvite {
+        color: #a16353;
+    }
+
+    span {
+        padding: 0 4px;
+    }
+
+    .emphasis-blue {
+        font-weight: bold;
+        color: #8bb9c3;
+    }
+
+    .subscribed {
+        font-weight: bold;
+        color: #7b8660;
+    }
+
+footer {
+    background-color: #727272;
+    margin-top: 28px;
+    font-size: 13px;
+    font-weight: bold;
+    overflow: auto;
+}
+
+.footer-nav {
+    float: left;
+    padding: 0 0 23px 0;
+    margin: 8px;
+}
+
+footer li {
+    display: inline;
+    color: #fff;
+    padding-right: 18px;
+}
+
+#copyright {
+    margin-top: 9px;
+    color: #fff;
+    float: right;
+}
