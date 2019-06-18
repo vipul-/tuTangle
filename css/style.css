@@ -5,6 +5,7 @@ body {
 
 header {
     background-color: #7dd9e8;
+    overflow: auto;
 }
 
 .container {
@@ -12,6 +13,13 @@ header {
     max-width: 1280px;
     margin: 0 auto;
     padding: 15px 0px;
+    overflow: auto;
+}
+
+#logoAndSearch {
+    float: left;
+    display: inline-block;
+    width: 800px;
 }
 
 h1 {
@@ -21,6 +29,7 @@ h1 {
     margin: 0;
     margin-right: 25px;
     display: inline-block;
+    letter-spacing: -1.6px;
 }
 
 form {
@@ -38,7 +47,7 @@ input {
 
 #search {
     background-color: #c9eff8;
-    width: 370px;
+    width: 374px;
     margin-right: 6px;
 }
 
@@ -48,16 +57,29 @@ input {
 }
 
 header #nav {
-    display: inline;
+    float: right;
+    display: inline-block;
+}
+
+header #userName {
+    display: block;
+    text-align: right;
+    margin-top: 17px;
+    font-size: 21px;
 }
 
 header #nav ul {
-    display: inline;
     list-style-type: none;
+    margin-top: 7px;
 }
 
 header #nav ul li {
     display: inline;
+    padding: 0 1px;
+}
+
+header #nav ul li+li:before {
+    content: '| ';
 }
 
 
@@ -102,7 +124,7 @@ aside ul {
 aside ul li {
     list-style-type: none;
     margin: 0;
-    margin-bottom: 23px;
+    margin-bottom: 24px;
 }
 
 aside #ul-second {
@@ -241,7 +263,7 @@ footer {
 .footer-nav {
     float: left;
     padding: 0 0 23px 0;
-    margin: 8px;
+    margin: 6px;
 }
 
 footer li {
