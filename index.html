@@ -4,23 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Arvo|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Muli&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>TuTangle</title>
 </head>
 <body>
     <header>
-
+        <div class='container'>
             <h1>TuTangle</h1>
             <form>
-                <input type='text'>
+                <input id='search' type='text' placeholder="Search by Term, Member, or Entry Title">
+                <input id='search-btn' type='submit' value='SEARCH'>
             </form>
-
+            <div id="nav">
+                <span>Joe Burros</span>
+                <ul>
+                    <li>Home</li>
+                    <li>Settings</li>
+                    <li>Log Out</li>
+                </ul>
+            </div>
+        </div>
+        
     </header>
     <nav>
         <div class='container'>
-            <span>Create New Entry</span>
+            <ul>
+                <li>Create New Entry</li>
+                <li> My Topic Boxes</li>
+                <li>Friends</li>
+                <li>Invite New Member</li>
+            </ul>
         </div>
     </nav>
+    <div class='container'>
+        <aside>
+            <div>
+                Recent Searches
+            </div>
+            <ul>
+                <li>Nick Cave and the Bad Seeds</li>
+                <li>African Animals</li>
+            </ul>
+            <div>
+                Recent Searches
+            </div>
+            <ul id='ul-second'>
+                <li>Different versions of the Trisan Und Isolde Prelude</li>
+                <li>Music</li>
+                <li>Guitar</li>
+                <li>Bob Cohen</li>
+                <li>Mark Schnack</li>
+                <li>Jefferson Dickey</li>
+            </ul>
+        </aside>
+        <main>
+            <h2>Entries</h2>
+            <div id='tab-container'>
+                <div id='all-entries'>
+                    <span>All Entries</span>
+                    <div class='selected'>All Members</div>
+                    <div>Friends</div>
+                </div>
+                <div id='subscribed'>
+                    <span>Subscribed</span>
+                    <div>New Entries</div>
+                    <div>New Comments</div>
+                </div>
+            </div>
+            <div class='feed-item'>
+                <img src='images/1.png'>
+                <div class="feed-text">
+                    <h4>Day for Night by Francois Trauffaut, a ground breaking film</h4>
+                    by <span class='author'>Alan Coe</span> | February 10, 2012 | Subscribed
+                </div>
+            </div>
+        </main>
+        <aside id='videoTutorials'>
+            <div>
+                Video Tutorials
+            </div>
+            <ul>
+                <li>Overview of TuTangle</li>
+                <li>Searching the Site</li>
+                <li>Previous & Saved Searches</li>
+                <li>The Topic Box Page</li>
+                <li>Creating a Topic Box</li>
+                <li>View Topic Box Entries</li>
+                <li>Creating an Entry</li>
+                <li>Privacy Settings</li>
+                <li>Co-Authoring</li>
+            </ul>
+        </aside>
+    </div>
 </body>
 </html>
