@@ -121,11 +121,15 @@ nav li {
     margin-right: 0;
 }
 
+#fullWidthGrayHack {
+    margin-top: 27px;
+    background-color: #f5f5f5;
+}
+
 aside {
     float: left;
     display: inline-block;
     width: 265px;
-    margin-top: 27px;
     background-color: #f5f5f5;
 }
 
@@ -193,13 +197,16 @@ main {
     display: inline-block;
     width: 709px;
     padding-left:37px;
+    padding-right: 29px;
+    background-color: #fff;
 }
 
 main h2 {
     font-size: 40px;
-    margin-top: 16px;
-    margin-bottom: 6px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     font-weight: 300;
+    line-height: 25px;
 }
 
 #tab-container {
