@@ -145,7 +145,7 @@ aside ul {
 
 #right ul {
     overflow: auto;
-    width: 230px;
+    width: 232px;
 }
 
 aside ul li {
@@ -157,16 +157,23 @@ aside ul li {
 
 aside ul li span {
     display: inline-block;
-    max-width: 150px;
-    float: left;
+    width: 150px;
 }
 
-aside ul li img {
-    float: right;
+aside ul:first-of-type li span {
+    padding-right:56.5px;
 }
 
 aside #ul-second {
-    max-width: 200px;
+    max-width: 250px;
+}
+
+aside #ul-second img:first-of-type {
+    padding-top: 2px;
+}
+
+aside .span-second {
+    width: 207px;
 }
 
 #videoTutorials {
@@ -176,6 +183,10 @@ aside #ul-second {
 
 #videoTutorials ul {
     max-width: 250px;
+}
+
+#videoTutorials li {
+    margin-bottom: 23.4px;
 }
 
 main {
@@ -292,7 +303,7 @@ main h2 {
 
 footer {
     background-color: #727272;
-    margin-top: 29px;
+    margin-top: 28px;
     font-size: 13px;
     font-weight: bold;
     overflow: auto;
@@ -301,7 +312,7 @@ footer {
 .footer-nav {
     float: left;
     padding: 0 0 23px 0;
-    margin: 6px;
+    margin-top: 8.3px;
 }
 
 footer li {
