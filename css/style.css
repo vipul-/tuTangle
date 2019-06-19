@@ -118,13 +118,24 @@ aside div {
 
 aside ul {
     padding-left: 14px;
-    max-width: 150px;
+    width: 240px;
+    overflow: auto;
 }
 
 aside ul li {
     list-style-type: none;
     margin: 0;
     margin-bottom: 24px;
+}
+
+aside ul li span {
+    display: inline-block;
+    max-width: 150px;
+    float: left;
+}
+
+aside ul li img {
+    float: right;
 }
 
 aside #ul-second {
