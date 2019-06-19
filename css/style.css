@@ -302,6 +302,7 @@ main h2 {
     }
 
 footer {
+    color: #fff;
     background-color: #727272;
     margin-top: 28px;
     font-size: 13px;
@@ -317,8 +318,11 @@ footer {
 
 footer li {
     display: inline;
-    color: #fff;
-    padding-right: 18px;
+    padding-right: 10px;
+}
+
+footer li:not(:first-of-type) {
+    padding-left: 2px;
 }
 
 #copyright {
