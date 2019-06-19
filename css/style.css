@@ -27,7 +27,7 @@ h1 {
     font-size: 70px;
     font-weight: 100;
     margin: 0;
-    margin-right: 25px;
+    margin-right: 32px;
     display: inline-block;
     letter-spacing: -1.6px;
 }
@@ -91,6 +91,22 @@ nav ul {
     margin: 0;
     margin-left: 10px;
     padding: 0;
+    display: inline-block;
+}
+
+nav ul:nth-child(2) {
+    overflow: auto;
+    float: right;
+}
+
+nav ul:nth-child(2) li {
+    font-size: 15px;
+    display: inline-block;
+}
+
+nav ul:nth-child(2) img {
+    float: left;
+    padding-right: 12px;
 }
 
 nav li {
@@ -99,6 +115,10 @@ nav li {
     margin-right: 37px;
     font-size: 19px;
     letter-spacing: 0.16px;
+}
+
+#friend-requests {
+    margin-right: 0;
 }
 
 aside {
@@ -118,14 +138,21 @@ aside div {
 
 aside ul {
     padding-left: 14px;
-    width: 240px;
+    width: 225px;
+    margin-bottom: 0;
+    overflow: none;
+}
+
+#right ul {
     overflow: auto;
+    width: 230px;
 }
 
 aside ul li {
     list-style-type: none;
     margin: 0;
-    margin-bottom: 24px;
+    margin-bottom: 23px;
+    overflow: auto;
 }
 
 aside ul li span {
@@ -216,7 +243,7 @@ main h2 {
 
 .feed-item {
     float: left;
-    padding: 20.5px 0;
+    padding: 20.4px 0;
     border-bottom: 1px solid #dcdcdc;
     width: 100%;
 }
@@ -265,7 +292,7 @@ main h2 {
 
 footer {
     background-color: #727272;
-    margin-top: 28px;
+    margin-top: 29px;
     font-size: 13px;
     font-weight: bold;
     overflow: auto;
